@@ -1,0 +1,27 @@
+{
+  "pkgName" : "tv-basicstudies",
+  "studyMigrations" : [
+    {
+      "rules" : [
+        {
+          "action" : "removeVal",
+          "inputId" : "source",
+          "type" : "inputRemoved"
+        }
+      ],
+      "studyId" : "AnchoredVWAP@tv-basicstudies"
+    },
+    {
+      "rules" : [
+        {
+          "action" : "removeVal",
+          "inputId" : "source",
+          "type" : "inputRemoved"
+        }
+      ],
+      "studyId" : "VWAP@tv-basicstudies"
+    }
+  ],
+  "versFrom" : "104",
+  "versTo" : "105"
+}
